@@ -1,0 +1,35 @@
+h1 {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.stage {
+	text-align: center;
+}
+.square {
+	width: 100px;
+	height: 100px;
+	margin: 2px;
+	background-color: chocolate;
+	border: 2px solid black;
+	display: inline-block;
+}
+/* itens */
+.o {
+	position: relative;
+}
+.o::after {
+	content: "\1F30A";
+	position: absolute;
+	line-height: 100px;
+	font-size: 2em;
+	inset: 0;
+}
+.x {
+	position: relative;
+}
+.x::after {
+	content: "\1F525";
+	position: absolute;
+	line-height: 100px;
+	font-size: 2em;
+	inset: 0;
+}
