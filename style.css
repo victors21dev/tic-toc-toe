@@ -1,6 +1,6 @@
-h1 {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
+@import url(https://fonts.googleapis.com/css?family=Lato:100,100italic,300,300italic,regular,italic,700,700italic,900,900italic);
+
+
 .stage {
 	text-align: center;
 }
