@@ -3,14 +3,13 @@
 	--color1: #43270e;
 	--color2: #0f3ba5;
 	--color3: #ed882d;
-	--shadow:3px 5px 20px #000000b3;
+	--shadow: 3px 5px 20px #000000b3;
 }
 * {
-	color: var(--color2);
+
 	font-family: roboto mono;
 	padding: 0;
 	margin: 0;
-	
 }
 body {
 	background: var(--color1);
@@ -21,10 +20,11 @@ header {
 	background-color: var(--color3);
 	margin-bottom: 2em;
 	padding: 10px 0px 10px 0px;
-	box-shadow:var(--shadow);
+	box-shadow: var(--shadow);
 }
 h1 {
 	text-shadow: 6px 2px 7px #43270e;
+	color: var(--color1);
 }
 
 .stage {
@@ -65,12 +65,40 @@ h1 {
 /* button */
 button {
 	font-size: 18px;
-	
-	margin-top:20px ;
+
+	margin-top: 20px;
 	background-color: var(--color3);
 	border: 1px solid black;
 	box-shadow: var(--shadow);
 	width: 200px;
 	padding: 5px;
 	cursor: pointer;
+	transition: all 0.3s ease-out;
+}
+button:hover {
+
+	color: var(--color2);
+
+}
+/* footer */
+footer {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	text-align: center;
+	width: 100%;
+	background-color: var(--color3);
+	padding: 5px;
+	color: var(--color1);
+}
+a {
+	text-decoration: none;
+	font-style: italic;
+		color: var(--color1);
+	transition: all 0.5s ease-in-out;
+}
+a:hover{
+	color: var(--color2);
+cursor: pointer;
 }
