@@ -27,6 +27,15 @@ h1 {
 	color: var(--color1);
 }
 
+.back-player{
+	text-align: center;
+	margin-bottom: 15px;
+	width: 40%;
+	background:var(--color3);
+	margin:20px auto;
+	padding: 5px;
+	box-shadow:var(--shadow)	
+}
 .stage {
 	text-align: center;
 }

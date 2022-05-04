@@ -1,8 +1,10 @@
 //
+
 let board = ["", "", "", "", "", "", "", "", ""];
 let playerTimer = 0;
 let symbols = ["o", "x"];
 let gameOver = false;
+let player = document.querySelector(".jogador");
 // todos os estados de vitória
 let winState = [
 	//cada posição desses arrays indica uma no board
@@ -15,7 +17,17 @@ let winState = [
 	[0, 4, 8],
 	[2, 4, 6],
 ];
+function turn (){
+	player.innerHTML= `${playerTimer}`
+if (playerTimer==0) {
+	player.style.color= "red"
+} else {
+	player.style.color = "blue";
+}
+}
+turn()
 function handleMove(position) {
+	turn();
 	if (gameOver) {
 		return;
 	}
@@ -30,8 +42,10 @@ function handleMove(position) {
 			if (playerTimer == 0) {
 				playerTimer =( playerTimer == 0 )? 1 : 0;
 				playerTimer = 1;
+			
 			} else {
 				playerTimer = 0;
+			
 			}
 		}
 	}
