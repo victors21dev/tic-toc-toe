@@ -1,0 +1,50 @@
+:root {
+	--color1: #43270e;
+	--color2: #0f3ba5;
+	--color3: #ed882d;
+	--shadow: 3px 5px 20px #000000b3;
+}
+@media screen and (max-width: 425px) {
+	body {
+		background-color: var(--color3);
+        
+	}
+	header {
+		background-color: var(--color1);
+        margin: auto;
+        
+	}
+   
+	h1 {
+		color: var(--color3);
+	}
+	/* vez do jogador */
+	.back-player {
+		background-color: var(--color1);
+		color: #ed882d;
+		font-size: medium;
+	}
+	/* quadrados */
+	.square {
+		background-color: var(--color1);
+
+		box-shadow: var(--shadow);
+	}
+	/* button */
+	button {
+		background-color: var(--color1);
+		color: var(--color3);
+		box-shadow: var(--shadow);
+		
+	}
+	/* footer */
+	footer {
+		background: var(--color1);
+		color: #ed882d;
+		width: 414px;
+
+	}
+	a {
+		color: var(--color3);
+	}
+}
