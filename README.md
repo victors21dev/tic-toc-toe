@@ -1,6 +1,6 @@
-# Tic Tac Toe
 
-<h1 align="center"> Portfólio </h1>
+
+<h1 align="center">  Tic Tac Toe </h1>
 <p align="center">
 <a href="https://jonathanguimarae3s.github.io/tic-toc-toe/" target="_blank">👉 Acesse a página aqui 👈</a>
 </p>    
@@ -13,7 +13,7 @@
 
 ## 💻 Projeto
 <h2>Objetivo</h2>
-O objetivo desse desafio foi praticar alguns conceitos aprendidos de JavaScript e a logica de programação, como por exemplos arrays, objetos e etcs. 
+O objetivo desse desafio foi praticar alguns conceitos aprendidos de JavaScript,como por exemplos arrays, objetos e etcs, e a logica de programação,  
 
 
 ## Linguagens e conceitos utilizados 
