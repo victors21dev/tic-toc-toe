@@ -18,7 +18,7 @@ let winState = [
 	[2, 4, 6],
 ];
 function turn (){
-	player.innerHTML= `${playerTimer}`
+	player.innerHTML= `${playerTimer + 1}`
 if (playerTimer==0) {
 	player.style.color= "red"
 } else {
@@ -27,7 +27,6 @@ if (playerTimer==0) {
 }
 turn()
 function handleMove(position) {
-	turn();
 	if (gameOver) {
 		return;
 	}
@@ -42,10 +41,10 @@ function handleMove(position) {
 			if (playerTimer == 0) {
 				playerTimer =( playerTimer == 0 )? 1 : 0;
 				playerTimer = 1;
-			
+				turn()
 			} else {
 				playerTimer = 0;
-			
+				turn()
 			}
 		}
 	}
